@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: monospace;
+    font-size: 18px;
+  }
+  
+  .animeFullScreenImg {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://ca-times.brightspotcdn.com/dims4/default/bfba83d/2147483647/strip/true/crop/1920x1080+0+0/resize/1486x836!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa9%2F29%2F9095034649138782a2e1d7b4a3e0%2Fds-still-012.jpg");
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+  }
+  .quote-container {
+    /* background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://ca-times.brightspotcdn.com/dims4/default/bfba83d/2147483647/strip/true/crop/1920x1080+0+0/resize/1486x836!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa9%2F29%2F9095034649138782a2e1d7b4a3e0%2Fds-still-012.jpg"); */
+    margin: 200px auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card {
+    border: 2px solid #ddd;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+  #animeQuote {
+    color: #444;
+    text-align: center;
+  }
+  #Anime {
+    float: right;
+    color: pink;
+    font-weight: bold;
+    font-family: monospace;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  #title {
+      font-family: monospace;
+      font-style: italic;
+  }
+  #button {
+    align-self: center;
+    border: 2px solid black;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: pink;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white; 
+  }
+
+  #button:active {
+      background-color: grey;
+  }
+  
+  #button:focus {
+    outline: none;
+  }
